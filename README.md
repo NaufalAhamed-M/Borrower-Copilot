@@ -271,10 +271,6 @@ The lender's official **KFS/APR and contractual repayment schedule** remain auth
 
 RBI's April 15, 2024 KFS framework requires regulated entities to provide borrowers a standardized Key Facts Statement containing key loan information, including the all-in cost/APR framework and repayment information.
 
-Reference:
-
-- RBI circular: `DOR.STR.REC.13/13.03.00/2024-25`, April 15, 2024.
-- RBI: https://www.rbi.org.in/
 
 ## Market-rate anchors
 
@@ -339,14 +335,3 @@ Business rules stay in the backend. The UI only collects input and renders resul
 - `RUNTHROUGHS.md` — Priya, Ravi and Anita acceptance runs.
 - `backend/src/test/.../AssessmentServiceTest.java` — regression tests for the core rules.
 
-## Interview defence points
-
-1. **Why no ML?** Transparency and auditability are more important than predictive optimisation for a borrower-side V1.
-2. **Why lender range and safe range separately?** A lender can approve an amount the borrower should not safely carry.
-3. **Why ranges?** Self-reported inputs and lender-specific underwriting create uncertainty.
-4. **Why not turn unknown into zero?** Zero is a factual claim. Unknown is not zero.
-5. **Why ask rent for everyone?** Housing cost is an affordability variable, not an employment-type variable.
-6. **Why ask bounces for everyone with credit history?** Repayment behaviour is a credit attribute, not an occupation attribute.
-=======
-# Borrower-Copilot
->>>>>>> d118a7f665e606223f1d8255c7d15de16d6d8fd4
