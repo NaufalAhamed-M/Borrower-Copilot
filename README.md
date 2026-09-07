@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Borrower Copilot — V1.0
 
 Borrower Copilot is a borrower-side, stateless self-assessment for India. It helps a borrower answer four questions before meeting a lender:
@@ -346,3 +347,6 @@ Business rules stay in the backend. The UI only collects input and renders resul
 4. **Why not turn unknown into zero?** Zero is a factual claim. Unknown is not zero.
 5. **Why ask rent for everyone?** Housing cost is an affordability variable, not an employment-type variable.
 6. **Why ask bounces for everyone with credit history?** Repayment behaviour is a credit attribute, not an occupation attribute.
+=======
+# Borrower-Copilot
+>>>>>>> d118a7f665e606223f1d8255c7d15de16d6d8fd4
