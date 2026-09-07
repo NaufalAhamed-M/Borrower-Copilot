@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Borrower Copilot — V1.0
 
 Borrower Copilot is a borrower-side, stateless self-assessment for India. It helps a borrower answer four questions before meeting a lender:
