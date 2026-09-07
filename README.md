@@ -186,13 +186,13 @@ Existing EMI remains a separate input. If the assignment does not give Anita's E
 
 ## Four outputs
 
-### O1 — Borrow / Borrow Less / Don't Borrow
+### O1 Borrow / Borrow Less / Don't Borrow
 
 The decision considers safe new-EMI capacity, requested EMI, existing repayment pressure and severe repayment-risk combinations.
 
 `DON'T BORROW` is deliberately reachable.
 
-### O2 — Maximum amount
+### O2 Maximum amount
 
 Two separate ranges are shown:
 
@@ -203,7 +203,7 @@ The lender range is never used as the safety cap.
 
 The Negotiation Card uses the conservative end of the borrower-safe range when borrowing is appropriate.
 
-### O3 — Fair interest rate
+### O3 Fair interest rate
 
 The app starts from product-level market-informed bands and applies transparent profile adjustments.
 
@@ -223,7 +223,7 @@ So:
 
 “4 points over fair” means **4 percentage points**, not 4% of the loan amount.
 
-### O4 — EMI ceiling
+### O4 EMI ceiling
 
 The app calculates a maximum comfortable new EMI after applying:
 
